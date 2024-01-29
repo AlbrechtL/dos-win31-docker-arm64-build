@@ -2,8 +2,8 @@ version: "3"
 services:
   qemu:
     container_name: dos-win31
-    #image: albrechtloh/qemu-openwrt:openwrt-23.05.1-2
-    image: "dos-win31-docker-arm64"
+    image: albrechtloh/qemu-dos-win31:latest
+    #image: "dos-win31-docker-arm64"
 
     environment:
       DEBUG: "y"
