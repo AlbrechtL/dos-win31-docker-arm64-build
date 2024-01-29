@@ -4,8 +4,8 @@
 set -Eeuo pipefail
 
 
-APP="OpenWrt"
-SUPPORT="https://github.com/AlbrechtL/dos_win31-docker-arm64-build"
+APP="DOS-Win31"
+SUPPORT="https://github.com/AlbrechtL/dos-win31-docker-arm64-build"
 
 cd /run
 
