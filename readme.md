@@ -1,4 +1,4 @@
-# MS DOS, Windows 3.1, Doom and Norton Commander qemu docker container
+# MS DOS and Windows 3.1 qemu docker container
 
 Based on the great works of https://github.com/qemus/qemu-docker. Thanks!
 Similar idea: https://github.com/hectorm/docker-qemu-win2000
