@@ -1,0 +1,17 @@
+version: "3"
+services:
+  qemu:
+    container_name: dos-win31
+    #image: albrechtloh/qemu-openwrt:openwrt-23.05.1-2
+    image: "dos-win31-docker-arm64"
+
+    environment:
+      DEBUG: "y"
+
+    ports:
+      # Port 8006 is console tty web VNC
+      - 8006:8006
+
+    stop_grace_period: 2m
+    restart: on-failure
+ 
