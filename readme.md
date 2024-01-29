@@ -1,4 +1,4 @@
-# MS DOS, Windows 3.1, Doom and Norton Commander qemu docker container for arm64. Yes arm64 not x86 based systems.
+# MS DOS, Windows 3.1, Doom and Norton Commander qemu docker container
 
 Based on the great works of https://github.com/qemus/qemu-docker. Thanks!
 Similar idea: https://github.com/hectorm/docker-qemu-win2000
@@ -52,7 +52,7 @@ Windows 3.11
 ![Windows 3.11](pictures/qemu-docker-dos-win31.png)
 
 
-![MS DOS 6.22]](pictures/qemu-docker-dos.png)
+![MS DOS 6.22](pictures/qemu-docker-dos.png)
 
 ![Norton Commander](pictures/qemu-docker-dos-nc.png)
 
