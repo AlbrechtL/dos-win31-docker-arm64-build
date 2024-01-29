@@ -49,13 +49,17 @@ https://rubenerd.com/changing-qemu-floppy-disks/
 All grafic output is done via VNC inside a web browser
 
 Windows 3.11
+
 ![Windows 3.11](pictures/qemu-docker-dos-win31.png)
 
 DOS
+
 ![MS DOS 6.22](pictures/qemu-docker-dos.png)
 
 Norton Commadner
+
 ![Norton Commander](pictures/qemu-docker-dos-nc.png)
 
 Doom
+
 ![DOOM](pictures/qemu-docker-dos-doom.png)
