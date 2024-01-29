@@ -26,7 +26,7 @@ See `src/entry.sh` and `Dockerfile`
 ## Build and run
 
 ```bash
-docker build -t openwrt-docker-arm64 . && docker compose up
+docker build -t dos-win31-docker-arm64 . && docker compose up
 ```
 
 ## Software sources
