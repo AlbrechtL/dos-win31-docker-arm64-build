@@ -19,7 +19,6 @@ COPY ./web /var/www/
 COPY ./image /var/vm/
 
 RUN chmod +x /run/*.sh
-RUN mv /var/www/nginx.conf /etc/nginx/http.d/web.conf
 
 VOLUME /storage
 EXPOSE 8006

@@ -27,22 +27,11 @@ server {
 
     location / {
 
-      root /run/shm;
-
-      if ( -f /run/shm/index.html) {
-        break;
-      }
-
-      try_files /index.html @vnc;
-    }
-
-    location @vnc {
-
       root /usr/share/novnc;
       index vnc.html;
 
       if ($request_uri = "/") {
-        return 301 /?resize=scale&autoconnect=true;
+        return 301 ?resize=scale&reconnect_delay=2000&autoconnect=true&path=u-os-app-openwrt/websockify;
       }
 
     }

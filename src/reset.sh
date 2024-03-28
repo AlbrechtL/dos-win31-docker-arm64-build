@@ -17,6 +17,7 @@ echo
 # Docker environment variables
 
 : "${DEBUG:="N"}"         # Disable debugging
+: "${IS_U_OS_APP:=""}"    # By default this container is not a u-OS app 
 
 # Helper variables
 
@@ -144,6 +145,15 @@ addPackage() {
 
   return 0
 }
+
+# Check u-OS app
+if [[ -z "${IS_U_OS_APP}" ]]; then
+  info "Detected generic container"
+  cp -f /var/www/nginx.conf.generic /etc/nginx/http.d/web.conf
+else
+  info "Detected u-OS app"
+  cp -f  /var/www/nginx.conf.u-os-app /etc/nginx/http.d/web.conf
+fi
 
 # Start webserver
 cp -r /var/www/* /run/shm
