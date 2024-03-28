@@ -31,7 +31,7 @@ server {
       index vnc.html;
 
       if ($request_uri = "/") {
-        return 301 ?resize=scale&reconnect_delay=2000&autoconnect=true&path=u-os-app-openwrt/websockify;
+        return 301 ?resize=scale&reconnect_delay=2000&autoconnect=true&path=u-os-app-dos-win31/websockify;
       }
 
     }
